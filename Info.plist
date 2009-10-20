@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EJSources</key>
+	<array>
+		<dict>
+			<key>key</key>
+			<string>blog</string>
+			<key>class</key>
+			<string>EJRSSController</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>twitter</string>
+			<key>class</key>
+			<string>EJTwitterController</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>github</string>
+			<key>class</key>
+			<string>EJGitHubController</string>
+		</dict>
+	</array>
+	<key>EJUsers</key>
+	<array>
+		<dict>
+			<key>Display Name</key>
+			<string>Kyle</string>
+			<key>Handles</key>
+			<dict>
+				<key>twitter</key>
+				<string>rhodesk</string>
+				<key>github</key>
+				<string>Kyle Rhodes</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Display Name</key>
+			<string>Caleb</string>
+			<key>Handles</key>
+			<dict>
+				<key>twitter</key>
+				<string>allencw</string>
+				<key>github</key>
+				<string>Caleb Allen</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Display Name</key>
+			<string>Derek</string>
+			<key>Handles</key>
+			<dict>
+				<key>twitter</key>
+				<string>hammerdr</string>
+				<key>github</key>
+				<string>Derek Hammer</string>
+				<key>blog</key>
+				<string>http://blog.derekhammer.com/?feed=json</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Display Name</key>
+			<string>Chandler</string>
+			<key>Handles</key>
+			<dict>
+				<key>twitter</key>
+				<string>chandlerkent</string>
+				<key>github</key>
+				<string>Chandler Kent</string>
+			</dict>
+		</dict>
+	</array>
+	<key>CPApplicationDelegateClass</key>
+	<string>AppController</string>
+	<key>CPBundleName</key>
+	<string>EngJourneering</string>
+	<key>CPPrincipalClass</key>
+	<string>CPApplication</string>
+</dict>
+</plist>
